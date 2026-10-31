@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeKwelgeeEazii</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--  Heading-->
+
+    <div class="heading">
+        <h1>MakeKwelgeeEazii</h1>
+        <p>Attendance ki tension? Hum hain na</p>
+    </div>
+
+
+    <!-- Form for user input -->
+
+    <div>
+        <form id="attendanceForm">
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" placeholder="Enter subject name" required>
+
+            <label for="totalLectures">Total Lectures:</label>
+            <input type="number" id="totalLectures" placeholder="Total lectures" required>
+
+            <label for="attendedLectures">Attended Lectures:</label>
+            <input type="number" id="attendedLectures" placeholder="Attended lectures" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+
+    <!--Warning Card-->
+    <div class="warning-danger">
+        <h3>Danger Zone</h3>
+        <p>DSA: Attendance 70% hai, 75% se kam hai</p>
+    </div>
+
+    <div class="warning-alert">
+        <h3>Alert Zone</h3>
+        <p>Physics: Attendance 75% hai. Aur ek chutti? Risk zone mein ho</p>
+    </div>
+
+    <!--   Subject Cards-->
+
+    <div class="cards-container">
+        <div class="subject-card">
+            <h3>DSA</h3>
+            <p>Attendance: 70%</p>
+            <button type="button">Present</button>
+            <button type="button">Absent</button>
+        </div>
+
+        <div class="subject-card">
+            <h3>Maths</h3>
+            <p>Attendance: 80%</p>
+            <button type="button">Present</button>
+            <button type="button">Absent</button>
+        </div>
+
+        <div class="subject-card">
+            <h3>Physics</h3>
+            <p>Attendance: 75%</p>
+            <button type="button">Present</button>
+            <button type="button">Absent</button>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
